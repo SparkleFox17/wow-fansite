@@ -1,0 +1,100 @@
+* {
+  font: 400 20px Roboto, sans-serif; }
+
+html,
+body {
+  background-color: #000;
+  scroll-behavior: smooth; }
+
+#wrapper {
+  width: 100%;
+  height: auto;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding-top: 110px; }
+
+section {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  border-top: 2px solid #fff;
+  color: #fff; }
+
+#story {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+
+#story .bk {
+  position: absolute;
+  z-index: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("../imgs/world-map.jpg");
+  background-size: cover;
+  background-position: 50% 50%;
+  filter: blur(8px); }
+
+#story .content {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  line-height: 50px;
+  width: 1000px;
+  min-height: 500px;
+  margin: 0 auto;
+  font: 400 20px Roboto, sans-serif;
+  font-size: 30px; }
+
+#expansions {
+  justify-content: center;
+  display: flex;
+  flex-direction: row; }
+  #expansions a {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column; }
+    #expansions a img {
+      margin: 0 auto;
+      z-index: 10; }
+
+#bc {
+  background-color: green;
+  background-image: url("../imgs/bc-bg.jpg");
+  background-size: cover;
+  background-position: 50% 50%; }
+
+#wotlk {
+  background-color: blue;
+  background-image: url("../imgs/wotlk-bg.png");
+  background-size: cover;
+  background-position: 50% 50%; }
+
+#nav {
+  position: fixed;
+  top: 0;
+  /* top of browser*/
+  width: 100%;
+  z-index: 100;
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-image: url("../imgs/bg1.jpg");
+  border-bottom: 30px solid transparent;
+  border-image: url("../imgs/border1.gif") 30 round; }
+  #nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1000px; }
+    #nav ul li {
+      width: auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: center; }
+
+#main-logo {
+  margin-top: 77px; }

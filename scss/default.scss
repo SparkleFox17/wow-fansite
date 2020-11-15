@@ -1,3 +1,87 @@
+@import "./variables";
+
 * {
   font: $font;
+}
+
+html,
+body {
+  background-color: $main-bg-color;
+  scroll-behavior: smooth;
+}
+
+#wrapper {
+  width: 100%;
+  height: auto;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding-top: 110px;
+}
+
+section {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  border-top: 2px solid #fff;
+  color: $main-color;
+}
+
+#story {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#story .bk {
+  position: absolute;
+  z-index: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("../imgs/world-map.jpg");
+  background-size: cover;
+  background-position: 50% 50%;
+  filter: blur(8px);
+}
+#story .content {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  line-height: 50px;
+  width: 1000px;
+  min-height: 500px;
+  margin: 0 auto;
+  font: $font;
+  font-size: 30px;
+}
+
+#expansions {
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+
+  a {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    img {
+      margin: 0 auto;
+      z-index: 10;
+    }
+  }
+}
+
+#bc {
+  background-color: green;
+  background-image: url("../imgs/bc-bg.jpg");
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+#wotlk {
+  background-color: blue;
+  background-image: url("../imgs/wotlk-bg.png");
+  background-size: cover;
+  background-position: 50% 50%;
 }

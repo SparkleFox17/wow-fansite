@@ -1,0 +1,33 @@
+@import "./variables";
+
+#nav {
+  position: fixed;
+  top: 0; /* top of browser*/
+  width: 100%;
+  z-index: 100;
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-image: url("../imgs/bg1.jpg");
+  border-bottom: 30px solid transparent;
+  border-image: url("../imgs/border1.gif") 30 round;
+
+  ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1000px;
+
+    li {
+      width: auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+  }
+}
+
+#main-logo {
+  margin-top: 77px;
+}
