@@ -1,0 +1,44 @@
+/*art gallery*/
+
+.gallery-highlight {
+  width: 700px;
+  min-height: 300px;
+  margin: 22px;
+}
+
+.wow-art-gallery {
+  width: 50%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.art-description {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #e2d2ce;
+}
+
+.wow-art-preview {
+  display: flex;
+  width: 80%;
+  border: 3px solid black; /*#e2d2ce;*/
+}
+
+.wow-art-preview img {
+  height: 100px;
+  flex-grow: 1;
+  opacity: 0.6;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+  margin: 20px;
+}
+
+.img.room-active {
+  opacity: 1 !important;
+}
+
+/*art gallery*/

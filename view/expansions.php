@@ -13,4 +13,4 @@
         </video>-->
         <img src="<?php echo SITEPATH;?>/imgs/WOW_Wrath_of_the_Lich_King.png" width="300">
     </a>
-</section>
+</section> 

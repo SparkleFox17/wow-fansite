@@ -16,7 +16,7 @@ body {
 
 section {
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
   position: relative;
   border-top: 2px solid #fff;
   color: #fff; }
@@ -98,3 +98,73 @@ section {
 
 #main-logo {
   margin-top: 77px; }
+
+/*art gallery*/
+.gallery-highlight {
+  width: 700px;
+  min-height: 300px;
+  margin: 22px; }
+
+.wow-art-gallery {
+  width: 50%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+.art-description {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #e2d2ce; }
+
+.wow-art-preview {
+  display: flex;
+  width: 80%;
+  border: 3px solid black;
+  /*#e2d2ce;*/ }
+
+.wow-art-preview img {
+  height: 100px;
+  flex-grow: 1;
+  opacity: 0.6;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+  margin: 20px; }
+
+.img.room-active {
+  opacity: 1 !important; }
+
+/*art gallery*/
+#races {
+  background-size: cover;
+  background-repeat: no-repeat;
+  -moz-box-shadow: inset 0px 0px 75px #000000;
+  -webkit-box-shadow: inset 0px 0px 75px #000000;
+  box-shadow: inset 0px 0px 75px #000000; }
+
+#race-character {
+  top: 10%;
+  opacity: 0;
+  right: -700px;
+  position: absolute; }
+
+.active-character {
+  transition: all 0.8s linear;
+  right: 40px !important;
+  opacity: 1 !important; }
+
+.classItem {
+  display: flex;
+  flex-direction: column; }
+
+.classItem img {
+  width: 40px; }
+
+.classItem h4 {
+  font-size: 20px;
+  color: black; }
+
+.classItem p {
+  font-size: 10px; }
