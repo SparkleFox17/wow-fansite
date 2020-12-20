@@ -35,3 +35,29 @@
 .classItem p {
   font-size: 10px;
 }
+
+/*added to races*/
+
+#horde-list {
+  padding: 20px;
+  margin: 20px;
+}
+h1 {
+  letter-spacing: 2px;
+  font-size: 30px;
+  font-family: "Berkshire Swash", cursive;
+  justify-content: center;
+  display: flex;
+}
+
+/*won't work ????????*/
+ul #ally-list {
+  display: flex;
+  width: 1000px;
+  justify-content: center;
+  margin: auto;
+  flex-direction: unset;
+}
+/*won't work ???????*/
+
+/*added to races*/

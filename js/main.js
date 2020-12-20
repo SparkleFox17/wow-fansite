@@ -7,7 +7,7 @@ let allyArray = [];
 /* Race Functions */
 function displayRaces() {
    let hordeList = document.querySelector('#horde-list');
-   let  allyList = document.querySelector('#ally-list');
+   let allyList = document.querySelector('#ally-list');
 
     let hordeElements = "";
     let allyElements = "";
@@ -91,7 +91,7 @@ function selectRace(selectedRace) {
     let raceCharacter = contentArea.querySelector('img');
 
     animateNonActiveCharacter(raceCharacter) 
-    displayAvailableClasses(selectedRace);
+    // displayAvailableClasses(selectedRace);
     section.style.backgroundImage = 'url(' + races[selectedRace].background + ')';
 
     raceTitle.innerHTML = races[selectedRace].title;
@@ -154,4 +154,8 @@ imageGallery();
 changeGender(currentGender);
 
 displayRaces();
+
+
+
+
 
